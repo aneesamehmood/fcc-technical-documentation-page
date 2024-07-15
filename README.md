@@ -22,7 +22,7 @@ To view or use the technical documentation page, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/technical-documentation-page.git
+   git clone https://github.com/aneesamehmood/fcc-technical-documentation-page.git
 
 ## Acknowledgements
 
