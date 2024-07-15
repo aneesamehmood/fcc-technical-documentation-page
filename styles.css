@@ -1,0 +1,44 @@
+body {
+  display: flex;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#navbar h1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
